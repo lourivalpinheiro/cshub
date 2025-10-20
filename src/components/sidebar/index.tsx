@@ -82,7 +82,7 @@ export function Sidebar() {
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
-                  href="https://cshub-calc.vercel.app"
+                  href="/cshub-calc"
                   target="blank"
                   className="flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:text-orange-400"
                 >
@@ -161,7 +161,7 @@ export function Sidebar() {
                 </Link>
                 
                 <Link
-                  href="https://cshub-calc.vercel.app"
+                  href="/cshub-calc"
                   target="blank"
                   className="flex items-center gap-4 px-2.5 hover:text-orange-400"
                   prefetch={false}
